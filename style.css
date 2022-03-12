@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  padding: 30px 15px;
+  background-color: #d6dde7;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+#main {
+  display: grid;
+  row-gap: 1.5em;
+  height: 100%;
+}
+
+.card {
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+.card__title {
+  font-size: 1.5em;
+}
+.card__content {
+  font-size: 0.8em;
+  opacity: 70%;
+}
+.card__author {
+  display: flex;
+  height: 2em;
+}
+.card__author div {
+  margin-left: 1.2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card__author div h4, .card__author div h5 {
+  margin: 0;
+  padding: 0;
+}
+.card__author div h5 {
+  opacity: 50%;
+}
+.card__author p {
+  height: 100%;
+  margin: 0;
+}
+.card__author img {
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.card--purple {
+  background: #733fc8 url("images/bg-pattern-quotation.svg") no-repeat top right;
+  background-origin: content-box;
+}
+.card--grey {
+  background-color: #49556b;
+}
+.card--white {
+  color: black;
+  background-color: white;
+}
+.card--dark-grey {
+  background-color: #18202d;
+}
+@media screen and (min-width: 700px) {
+  .card {
+    background-color: red;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
