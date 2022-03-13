@@ -68,6 +68,8 @@
 
 
     @include desktop-only{
-        background-color: red;
+        &__content{
+            font-size: 1em;
+        }
     }
 }
